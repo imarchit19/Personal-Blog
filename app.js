@@ -40,7 +40,6 @@ app.get("/", function(req, res) {
       posts: posts
     });
   });
-
 });
 
 app.get("/compose", function(req, res) {
